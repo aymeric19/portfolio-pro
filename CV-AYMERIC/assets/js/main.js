@@ -1,9 +1,4 @@
-/**
-* Template Name: Laura - v2.2.0
-* Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 !(function($) {
   "use strict";
 
@@ -189,3 +184,8 @@
   });
 
 })(jQuery);
+
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode"),("h2");
+}

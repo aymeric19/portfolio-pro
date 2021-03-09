@@ -1,4 +1,27 @@
+.cordo
+{
+  font-size:30px;
+}
+/** Dark CSS */
+button{
+  color:#fff;
+  background-color:#269898;
+  font-size:15px;
+  border-radius: 8px;
+      }
 
+body {
+
+  background-color: black;
+  color: white;
+}
+
+.dark-mode{
+  background-color: #269898;
+  color: white;
+}
+
+/**----*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
@@ -581,6 +604,7 @@ section {
   background: url("../img/me.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
+  border-radius: 10px;
 }
 
 .about .skills-content {
@@ -650,7 +674,7 @@ section {
   margin-bottom: 10px;
 }
 
-.resume .resume-item h5 {
+.resume .resume-item h5,.title {
   font-size: 16px;
   background: #FF8B2A;
   padding: 5px 15px;
@@ -687,7 +711,7 @@ section {
 # My Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  padding: 30px;
+  padding: 20px;
   position: relative;
   overflow: hidden;
   background: #fff;
@@ -695,6 +719,7 @@ section {
   transition: all 0.3s ease-in-out;
   text-align: center;
   border: 1px solid #fff;
+  border-radius: 8px;
 }
 
 .services .icon {
@@ -721,7 +746,7 @@ section {
 }
 
 .services .title a {
-  color: #111;
+  color: #FFF;
   transition: 0.3s;
 }
 
@@ -861,7 +886,7 @@ section {
   line-height: 1;
   padding: 7px 10px;
   text-transform: uppercase;
-  color: #444444;
+  color: #fff;
   transition: all 0.3s ease-in-out;
   border: 2px solid #fff;
 }
@@ -881,6 +906,10 @@ section {
 
 .portfolio .portfolio-item .portfolio-img img {
   transition: all 0.8s ease-in-out;
+}
+.portfolio-img
+{
+  border-radius: 8px;
 }
 
 .portfolio .portfolio-item .portfolio-info {
